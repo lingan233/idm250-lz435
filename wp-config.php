@@ -26,6 +26,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+<<<<<<< HEAD
 
 
 define( 'DB_NAME', 'local_idm250' );
@@ -45,6 +46,25 @@ define( 'DB_PASSWORD', 'root' );
 
 // /** MySQL database password */
 // define( 'DB_PASSWORD', 'v&T{H+rT[Ci2' );
+=======
+// define( 'DB_NAME', 'local_idm250' );
+
+// /** MySQL database username */
+// define( 'DB_USER', 'root' );
+
+// /** MySQL database password */
+// define( 'DB_PASSWORD', 'root' );
+
+
+
+define( 'DB_NAME', 'linganzh_idm250' );
+
+/** MySQL database username */
+define( 'DB_USER', 'linganzh_idm232' );
+
+/** MySQL database password */
+define( 'DB_PASSWORD', 'v&T{H+rT[Ci2' );
+>>>>>>> parent of 6139012 (Delete wp-config.php)
 
 
 
@@ -101,11 +121,14 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', true );
 
+<<<<<<< HEAD
 // switch under different envoirment 
 define('WP_HOME', 'http://localhost');
 define('WP_SITEURL', 'http://localhost');
 
 
+=======
+>>>>>>> parent of 6139012 (Delete wp-config.php)
 /* Add any custom values between this line and the "stop editing" line. */
 
 
