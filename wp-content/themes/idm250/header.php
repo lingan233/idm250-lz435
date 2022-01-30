@@ -17,9 +17,13 @@
 </head>
 
 <body>
-    <div>
-        <p>nav</p>
+
+    <div id="navbar">
+        <a href="#default" id="logo">Ling Zheng</a>
+        <?php
+        // Registered this menu in functions.php
+        wp_nav_menu(['theme_location' => 'primary_menu']);
+        ?>
     </div>
-    <?php
-    // Registered this menu in functions.php
-    wp_nav_menu(['theme_location' => 'primary_menu']);
+    <div class="content-filler">
+    </div>
