@@ -12,3 +12,9 @@ function scrollFunction() {
     document.getElementById("logo").style.fontSize = "1.75rem";
   }
 }
+
+$(document).ready(function(){
+    $(".hamburger-container").click(function(){
+      $(".menu-main-menu-container").toggle();
+    });
+  });

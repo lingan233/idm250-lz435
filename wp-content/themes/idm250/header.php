@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title><?php wp_title(); ?>
     </title>
 
@@ -20,6 +21,11 @@
 
     <div id="navbar">
         <a href="#default" id="logo">Ling Zheng</a>
+        <div class="hamburger-container">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
         <?php
         // Registered this menu in functions.php
         wp_nav_menu(['theme_location' => 'primary_menu']);

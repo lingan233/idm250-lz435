@@ -38,37 +38,31 @@ a:hover {
     transition: 0.4s;
 }
 
-
-.menu-main-menu-container {
+.hamburger-container, .menu-main-menu-container {
     float: right;
     margin-right: 5rem;
 }
 
+.hamburger-container div {
+    width: 35px;
+    height: 4px;
+    margin: 8px 0;
+    background-color: white;
+}
+
+.menu-main-menu-container {
+    display: none;
+    /* background-color: purple;
+    position: absolute;
+    z-index: 2; */
+}
 
 .menu-main-menu-container ul {
-    margin: 0;
-    padding: 0;
     list-style: none;
+    padding: 0;
+    margin-left: 2rem;
 }
 
-.menu-main-menu-container li {
-    display: inline-block;
-}
-
-li>.sub-menu {
-    display: none;
-    width: 10rem;
-    margin-top: 3rem;
-    padding: 1.5rem;
-    border-top: 5px solid purple;
-    background-color: black;
-    position: absolute;
-    z-index: 1;
-}
-
-li:hover .sub-menu {
-    display: block;
-}
 
 .content-filler {
     height: 100rem;
@@ -77,10 +71,12 @@ li:hover .sub-menu {
 /* -----Footer------- */
 
 #footer {
-    padding: 5rem;
+    padding: 2rem;
     background-color: black;
     color: white;
     text-align: center;
+    line-height: 2rem;
+    transition: .4s;
 }
 
 #footer h1 {
@@ -106,3 +102,50 @@ li:hover .sub-menu {
 .menu-footer-menu-container li {
     display: inline-block;
 }
+
+
+/* ----------RESPONSIVE-------------- */
+
+@media only screen and (min-width: 50rem) {
+
+    .hamburger-container {
+        display: none;
+    }
+
+    .menu-main-menu-container {
+        display: block !important;
+    }
+
+    .menu-main-menu-container ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu-main-menu-container li {
+        display: inline-block;
+    }
+
+    li>.sub-menu {
+        display: none;
+        width: 10rem;
+        margin-top: 3rem;
+        padding: 1.5rem;
+        border-top: 5px solid purple;
+        background-color: black;
+        position: absolute;
+        z-index: 1;
+    }
+
+    li:hover .sub-menu {
+        display: block;
+    }
+
+
+    #footer {
+        padding: 5rem;
+    }
+
+
+}
+
+@media only screen and (min-width: 80rem) {}
