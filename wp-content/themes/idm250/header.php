@@ -29,6 +29,8 @@
         <?php
         // Registered this menu in functions.php
         wp_nav_menu(['theme_location' => 'primary_menu']);
+        // insert here some code for display menu 
+        // find the codes in paul's repo
         ?>
     </div>
     <div class="content-filler">

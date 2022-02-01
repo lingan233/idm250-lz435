@@ -40,7 +40,10 @@ function include_js_files()
 {
     wp_enqueue_script(
         'idm250-js',
-        get_template_directory_uri() . '/dist/scripts/main.js'
+        get_template_directory_uri() . '/dist/scripts/main.js',
+        [],
+        false,
+        true
     );
 }
 // When WP performs this action, call our function
@@ -61,3 +64,25 @@ function register_theme_navigation()
 }
 
 add_action('after_setup_theme', 'register_theme_navigation');
+
+
+function idm_render_menu($menu_name)
+{
+    if (!$menu_name) {
+        return;
+    }
+    $locations = get_nav_menu_locations();
+    $menu = wp_get_nav_menu_object($locations[$menu_name]);
+    $menu_items = wp_get_nav_menu_items($menu->term_id, ['order' => 'DESC']);
+    return $menu_items; 
+}
+
+// Enable support thumbnail in wordpress
+
+
+function add_post_thumbnails_support()
+{
+    add_theme_support('post-thumbnails');
+}
+add_action('after_setup_theme', 'add_post_thumbnails_support');
+
