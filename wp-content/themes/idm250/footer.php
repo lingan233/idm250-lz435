@@ -1,3 +1,8 @@
+</main>
+
+<div class="content-filler">
+</div>
+
 <div id="footer">
     <h1>Let's Connect!</h1>
 
@@ -12,6 +17,8 @@
 
 wp_footer();
 ?>
+
+
 
 </body>
 

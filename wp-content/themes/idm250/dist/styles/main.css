@@ -1,5 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto';
 
+* {
+    font-family: 'Roboto';
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -30,7 +34,6 @@ a:hover {
     font-size: 1rem;
     color: white;
     text-transform: uppercase;
-    font-family: 'Roboto';
 }
 
 #navbar #logo {
@@ -65,7 +68,71 @@ a:hover {
 
 
 .content-filler {
-    height: 100rem;
+    height: 30rem;
+    background-color: white;
+}
+
+main {
+    background-color: black;
+    color: white;
+    padding: 6rem 2rem;
+}
+
+/* -----404.php------- */
+
+.purple {
+    color: purple;
+}
+
+.error-design {
+    padding: 3rem 1rem;
+    width: 20rem;
+    display: block;
+    padding-left: 2rem;
+    margin: auto;
+}
+
+.error-design h1 {
+    font-size: 4rem;
+}
+
+.error-design :first-child {
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.error-design :nth-child(2) {
+    margin-top: -3rem;
+    padding-left: 3rem;
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.error-design :nth-child(n+3) {
+    margin-top: -2rem;
+    padding-left: 1.5rem;
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+
+.error-design div {
+    width: 12rem;
+    height: .5rem;
+    background-color: purple;
+}
+
+.error-design :nth-child(3) {
+    margin-left: -.5rem;
+    margin-top: -3.5rem;
+    padding-bottom: .5rem;
+}
+
+.large-p {
+    font-size: 1.25rem;
+    line-height: 2rem;
 }
 
 /* -----Footer------- */
@@ -146,6 +213,11 @@ a:hover {
     }
 
 
+
 }
 
-@media only screen and (min-width: 80rem) {}
+@media only screen and (min-width: 80rem) {
+    .flex-container {
+        display: flex;
+    }
+}

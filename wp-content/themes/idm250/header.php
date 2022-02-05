@@ -18,7 +18,6 @@
 </head>
 
 <body>
-
     <div id="navbar">
         <a href="#default" id="logo">Ling Zheng</a>
         <div class="hamburger-container">
@@ -33,5 +32,9 @@
         // find the codes in paul's repo
         ?>
     </div>
-    <div class="content-filler">
-    </div>
+    
+
+
+    <main>
+
+    
