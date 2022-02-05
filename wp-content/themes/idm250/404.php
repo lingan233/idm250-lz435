@@ -7,8 +7,9 @@
         <h1>ERROR</h1>
         <div></div>
     </div>
-    <p class="large-p">We are working hard to resolve this issue. Please refresh the page or come back after 24 hours. </p>
-
+    <div class="error-text-container">
+        <p class="large-p">We are working hard to resolve this issue. Please refresh the page or come back after 24 hours. </p>
+    </div>
 </div>
 
 <?php get_footer();

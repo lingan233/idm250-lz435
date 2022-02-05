@@ -212,12 +212,79 @@ main {
         padding: 5rem;
     }
 
+    /* flex container & main are used in 404.php */
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
+    main {
+        padding: 10rem 5rem;
+    }
+
+    /* --------404.php--------- */
+    .error-text-container {
+        margin: 3rem;
+        padding-bottom: 8rem;
+    }
+
+    .error-design {
+        margin: 3rem;
+        width: 35rem;
+        transition: 1.5s;
+    }
+
+    .error-design h1 {
+        font-size: 9rem;
+    }
+
+    .error-design h2 {
+        font-size: 4rem;
+    }
+
+    .error-design h3 {
+        font-size: 3rem;
+    }
+
+    .error-design :nth-child(n) {
+        margin-top: -5rem;
+    }
+
+    .error-design div {
+        width: 24rem;
+        height: 1rem;
+        background-color: purple;
+        margin-left: -4rem;
+    }
+
+    .large-p {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    .error-design :nth-child(2) {
+        margin-top: -7rem;
+        padding-left: 5rem;
+    }
+
+    .error-design :nth-child(3) {
+        margin-left: -1rem;
+        margin-top: -7rem;
+    }
 
 }
 
 @media only screen and (min-width: 80rem) {
+
+    /* flex container & main are used in 404.php */
     .flex-container {
-        display: flex;
+        flex-direction: row;
     }
+
+    main {
+        padding: 15rem 10rem;
+    }
+
 }
