@@ -19,7 +19,7 @@
 
 <body>
     <div id="navbar">
-        <a href="#default" id="logo">Ling Zheng</a>
+        <a href="../" id="logo">Ling Zheng</a>
         <div class="hamburger-container">
             <div></div>
             <div></div>
@@ -33,8 +33,5 @@
         ?>
     </div>
     
-
-
-    <main>
 
     

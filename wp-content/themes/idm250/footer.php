@@ -1,4 +1,3 @@
-</main>
 
 <div class="content-filler">
 </div>

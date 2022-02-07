@@ -72,10 +72,14 @@ a:hover {
     background-color: white;
 }
 
-main {
+.black-background {
     background-color: black;
     color: white;
-    padding: 6rem 2rem;
+
+}
+
+main {
+        padding: 6rem 2rem;
 }
 
 /* -----404.php------- */
