@@ -6,6 +6,9 @@
 
 <?php get_header(); ?>
 
-This is template-search.php
+<main>
+    This is template-search.php
+</main>
+
 
 <?php get_footer();
