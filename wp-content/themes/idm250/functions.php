@@ -20,7 +20,9 @@ if (version_compare($GLOBALS['wp_version'], '5.4.2', '<')) {
 function include_styles()
 {
     // Example of including an external link
+    wp_enqueue_style('normalize', 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
     wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 
     // Example of including a style local to your theme root
     wp_enqueue_style(
