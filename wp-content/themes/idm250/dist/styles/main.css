@@ -28,18 +28,21 @@ h3 {
 h4 {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
+    line-height: 1rem;
 }
 
 h5 {
     font-family: 'Cairo', sans-serif;
     font-weight: 500;
     font-size: 1rem;
+    line-height: 1rem;
 }
 
 h6 {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-size: 1rem;
+    line-height: 1rem;
 }
 
 li {
@@ -82,7 +85,6 @@ a:hover {
 blockquote {
     color: purple;
 }
-
 
 
 /* -----Header------- */
@@ -260,9 +262,9 @@ main {
 
 @media only screen and (min-width: 50rem) {
 
-    /* h3 {
-        font-size: 1.75rem;
-    } */
+    h1 {
+        font-size: 2.5rem;
+    }
 
     .hamburger-container {
         display: none;
@@ -295,7 +297,6 @@ main {
     li:hover .sub-menu {
         display: block;
     }
-
 
     #footer {
         padding: 5rem;
@@ -374,6 +375,18 @@ main {
 }
 
 @media only screen and (min-width: 80rem) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3, h4, h5, h6 {
+        font-size: 1.5rem;
+    }
 
     /* flex container & main are used in 404.php */
     .flex-container {
