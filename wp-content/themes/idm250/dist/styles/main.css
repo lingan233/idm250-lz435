@@ -1,6 +1,6 @@
 @import 'https://fonts.googleapis.com/css2?family=Cairo';
 @import 'https://fonts.googleapis.com/css2?family=Open+Sans';
-@import 'https://fonts.googleapis.com/css2?family=Playfair+Display');
+@import 'https://fonts.googleapis.com/css2?family=Playfair+Display';
 
 body {
     padding: 0;
@@ -40,14 +40,6 @@ h6 {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-size: 1rem;
-}
-
-ul {
-
-}
-
-ol {
-
 }
 
 li {
@@ -91,17 +83,6 @@ blockquote {
     color: purple;
 }
 
-cite {
-
-}
-
-img {
-
-}
-
-video {
-
-}
 
 
 /* -----Header------- */
