@@ -1,22 +1,108 @@
-/* @import 'normalize.css';
-@import 'https://fonts.googleapis.com/css?family=Roboto'; */
-
-* {
-    font-family: 'Roboto';
-}
+@import 'https://fonts.googleapis.com/css2?family=Cairo';
+@import 'https://fonts.googleapis.com/css2?family=Open+Sans';
+@import 'https://fonts.googleapis.com/css2?family=Playfair+Display');
 
 body {
     padding: 0;
     margin: 0;
+    line-height: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: purple;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+h5 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+ul {
+
+}
+
+ol {
+
+}
+
+li {
+    line-height: 2rem;
+}
+
+table {
+    border: 1px solid #ddd;
+}
+
+td, tr {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:first-child {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: purple;
+    color: white;
+    font-weight: 700;
+}
+
+.wp-block-button__link {
+    background-color: purple;
+}
+
+p {
+    line-height: 1.9rem;
 }
 
 a:hover {
     opacity: .7;
 }
 
-h2 {
+blockquote {
     color: purple;
 }
+
+cite {
+
+}
+
+img {
+
+}
+
+video {
+
+}
+
 
 /* -----Header------- */
 
@@ -192,6 +278,10 @@ main {
 /* ----------RESPONSIVE-------------- */
 
 @media only screen and (min-width: 50rem) {
+
+    /* h3 {
+        font-size: 1.75rem;
+    } */
 
     .hamburger-container {
         display: none;
