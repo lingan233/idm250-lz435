@@ -181,6 +181,7 @@ main {
 
 .error-design h1 {
     font-size: 4rem;
+    padding: 1.75rem;
 }
 
 .error-design :first-child {
@@ -328,14 +329,17 @@ main {
 
     .error-design h1 {
         font-size: 9rem;
+        padding: 6rem;
     }
 
     .error-design h2 {
         font-size: 4rem;
+        padding: 1rem;
     }
 
     .error-design h3 {
         font-size: 3rem;
+        padding: 2rem;
     }
 
     .error-design :nth-child(n) {
