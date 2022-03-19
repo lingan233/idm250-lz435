@@ -156,6 +156,21 @@ main {
     padding: 6rem 2rem;
 }
 
+.search-container {
+    padding: 2rem 5rem;
+    padding-top: 6rem;
+    /* padding-bottom: 2rem; */
+    background-color: white;
+}
+
+.search-field {
+    padding: 1rem;
+}
+
+.search-button {
+    padding: 1rem;
+}
+
 /* -----front-page.php------- */
 
 .front-page img {
